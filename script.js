@@ -7,10 +7,6 @@ let cursorXSpace;
 container.addEventListener("mousedown", (e) => {
   isPressedDown = true;
   cursorXSpace = e.offsetX - cards.offsetLeft;
-  container.style.cursor = "grabbing";
-});
-container.addEventListener("mouseup", () => {
-  container.style.cursor = "grab";
 });
 
 window.addEventListener("mouseup", () => {
