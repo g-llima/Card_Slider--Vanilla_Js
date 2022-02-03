@@ -1,5 +1,5 @@
-const container = document.querySelector(".container");
-const cards = document.querySelector(".cards");
+const container = document.querySelector(".cardSliderContainer");
+const cards = document.querySelector(".cardSliderContainer__cards");
 
 let isPressedDown = false;
 let cursorXSpace;

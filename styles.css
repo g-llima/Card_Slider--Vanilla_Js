@@ -20,7 +20,7 @@ h1 {
   margin: 0.5rem 0;
 }
 
-.container {
+.cardSliderContainer {
   position: relative;
   width: 1000px;
   height: 400px;
@@ -28,7 +28,7 @@ h1 {
   cursor: grab;
 }
 
-.cards {
+.cardSliderContainer__cards {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,14 +38,14 @@ h1 {
   pointer-events: none;
 }
 
-.card {
+.cardSliderContainer__cards__card {
   border: 1px solid #ccc;
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
 }
 
-.card__content {
+.cardSliderContainer__cards__card__cardContent {
   color: #4e4e4e;
   padding: 1rem;
 }
